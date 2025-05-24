@@ -16,6 +16,9 @@ spring:
   cache:
     type: redis
 
+jwt:
+  secret: "6f92018d4f5d2a2cbd67a1f24f315e0f67495807b921f95f0a2c342c7291d0d9"
+
 server:
   port: ${SERVER_PORT:8080}
 
